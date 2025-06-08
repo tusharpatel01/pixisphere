@@ -4,7 +4,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchPhotographers = createAsyncThunk(
   'photographers/fetchPhotographers',
   async () => {
-    const response = await fetch('http://localhost:3500/photographers');
+    const response = await fetch('https://mock-api-1-1ayv.onrender.com/photographers');
     const data = await response.json();
     return data;
   }

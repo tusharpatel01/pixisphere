@@ -10,7 +10,7 @@ const PhotographerProfile = () => {
   useEffect(() => {
     const fetchPhotographer = async () => {
       setLoading(true);
-      const res = await fetch(`http://localhost:3500/photographers/${id}`);
+      const res = await fetch(`https://mock-api-1-1ayv.onrender.com/photographers/${id}`);
       const data = await res.json();
       console.log('Fetched photographer data:', data);
       

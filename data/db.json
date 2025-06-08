@@ -17,8 +17,8 @@
       "bio": "Award-winning studio specializing in maternity and newborn shoots.",
        "profilePic": "/maternity.jpg",
       "portfolio": [
-        "/images/portfolio1.jpg",
-        "/images/portfolio2.jpg"
+        "/potrait.jpg",
+        "/mt2.jpg"
       ],
       "reviews": [
         {
@@ -46,8 +46,8 @@
       "bio": "Delhi-based candid specialist for kids and birthday parties.",
       "profilePic": "/birthday.jpg",
       "portfolio": [
-        "/images/lens1.jpg",
-        "/images/lens2.jpg"
+        "img3.jpg",
+        "/birth.jpg"
       ],
       "reviews": [
         {
@@ -76,8 +76,8 @@
       "bio": "Capturing timeless wedding stories across India.",
       "profilePic": "/marriage.jpg",
       "portfolio": [
-        "/images/wed1.jpg",
-        "/images/wed2.jpg"
+        "/party.jpg",
+        "/marr.jpg"
       ],
       "reviews": [
         {
@@ -105,8 +105,8 @@
       "bio": "Natural light specialist focusing on emotional storytelling",
       "profilePic": "/prewedding.jpg",
       "portfolio": [
-        "/images/neha1.jpg",
-        "/images/neha2.jpg"
+        "/indoor.jpg",
+        "/img1.jpg"
       ],
       "reviews": [
         {
