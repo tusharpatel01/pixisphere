@@ -53,12 +53,12 @@ const CategoryListing = () => {
   const result = filterAndSortPhotographers();
 
   return (
-    <div className="flex flex-col md:flex-row p-4 gap-4">
+    <div className="flex flex-col md:flex-row p-4 gap-4 pt-20">
       <div className="md:w-1/4">
         <FilterSidebar filters={filters} setFilters={setFilters} />
       </div>
-      <div className="md:w-3/4">
-        <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <div className="md:w-3/4 ">
+        <SearchBar  searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         <SortDropdown sortOption={sortOption} setSortOption={setSortOption} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
           {loading
